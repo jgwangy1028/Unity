@@ -1,0 +1,7 @@
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*b7f5c55cb0a471e6135a filter=lfs diff=lfs merge=lfs -text
+*DB filter=lfs diff=lfs merge=lfs -text
+*.bhc filter=lfs diff=lfs merge=lfs -text
+*.pack filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
