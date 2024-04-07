@@ -381,6 +381,7 @@
 -analyzer:"D:/Unity/Editor/2022.3.23f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/scripts/CrashDetector.cs"
 "Assets/scripts/FinishLine.cs"
+"Assets/scripts/GroundTouchDetector.cs"
 "Assets/scripts/PlayerCotroller.cs"
 -langversion:9.0
 
