@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\vars6\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\comitUnity\\Unity-1\\snow board\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7C19F6-B941-4929-E87A-88D3D8152577}|Assembly-CSharp.csproj|c:\\users\\vars6\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\comitunity\\unity-1\\snow board\\assets\\scripts\\finishline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED7C19F6-B941-4929-E87A-88D3D8152577}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\finishline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FinishLine.cs",
+              "DocumentMoniker": "C:\\Users\\vars6\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\comitUnity\\Unity-1\\snow board\\Assets\\scripts\\FinishLine.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\FinishLine.cs",
+              "ToolTip": "C:\\Users\\vars6\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\comitUnity\\Unity-1\\snow board\\Assets\\scripts\\FinishLine.cs",
+              "RelativeToolTip": "Assets\\scripts\\FinishLine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T02:29:03.99Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"

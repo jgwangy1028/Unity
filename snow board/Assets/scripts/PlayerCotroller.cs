@@ -7,6 +7,8 @@ public class PlayerCotroller : MonoBehaviour
     [SerializeField] float TorqueAmount = 1f;
     // [SerializeField] float boostSpeed = 30f;
     // [SerializeField] float baseSpeed = 20f;
+
+    bool canMove = true;
     Rigidbody2D rb2d;
     SurfaceEffector2D surfaceEffector2D;
 
@@ -20,8 +22,16 @@ public class PlayerCotroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RotatePlayer();
-        ResponseToBoost();
+        if (canMove)
+        {
+            RotatePlayer();
+            ResponseToBoost();
+        }
+        else
+        {
+            surfaceEffector2D.forceScale = 0f;
+        }
+
     }
 
     void ResponseToBoost()
@@ -30,7 +40,7 @@ public class PlayerCotroller : MonoBehaviour
         //otherwise, stay in base speed
         //acess surface effector & controll speed->force
 
-        if(Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space))
         {
             surfaceEffector2D.forceScale = 0.01f;
         }
@@ -40,12 +50,19 @@ public class PlayerCotroller : MonoBehaviour
         }
     }
 
+    public void DisableControls()
+    {
+        canMove = false;
+    }
+
     void RotatePlayer()
     {
-        if (Input.GetKey(KeyCode.LeftArrow)){
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
             rb2d.AddTorque(TorqueAmount);
         }
-        else if (Input.GetKey(KeyCode.RightArrow)){
+        else if (Input.GetKey(KeyCode.RightArrow))
+        {
             rb2d.AddTorque(-TorqueAmount);
         }
     }
